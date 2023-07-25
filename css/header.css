@@ -1,0 +1,24 @@
+header{
+    background-color: #F90;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 1em 50px;
+}
+
+header h1{
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+header i{
+    justify-self: start;
+    font-size: 30px;
+    line-height: 1em;
+}
+
+i.fi::before{
+    display: block;
+}
