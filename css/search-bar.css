@@ -1,0 +1,42 @@
+.search-bar-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 1.5em;
+    cursor: pointer;
+}
+
+.search-bar:hover{
+    background-color: #eeeeee;
+}
+
+.search-bar > *{
+    font-size: 24px;
+    opacity: 50%;
+}
+
+.search-text{
+    margin: 0;
+    font-size: 24px;
+    opacity: 50%;
+    flex-grow: 1;
+}
+
+.search-text:focus{
+    outline: none;
+}
+
+.search-bar i{
+    opacity: 50%;
+    margin-left: 20px;
+}
